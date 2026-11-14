@@ -1,0 +1,27 @@
+# --- IPs (reserved TEST-NET ranges: kabhi real nahi hote, demo ke liye safe) ---
+IP,192.0.2.10,HIGH
+IP,198.51.100.23,HIGH
+IP,203.0.113.77,MEDIUM
+IP,192.0.2.150,MEDIUM
+IP,203.0.113.200,LOW
+# --- Domains (.invalid reserved hai, internet par kabhi nahi chalta) ---
+DOMAIN,free-prizes-claim.invalid,HIGH
+DOMAIN,netmirror.net,HIGH
+DOMAIN,bank-login-verify.invalid,HIGH
+DOMAIN,crypto-giveaway-win.invalid,HIGH
+DOMAIN,fake-antivirus-alert.invalid,HIGH
+DOMAIN,urgent-account-suspended.invalid,MEDIUM
+DOMAIN,freemovie.net,MEDIUM
+DOMAIN,https://www.scribd.com/,LOW
+DOMAIN,google.com,LOW
+DOMAIN,cheap-pills-online.invalid,MEDIUM
+DOMAIN,newsletter-spam-offer.invalid,LOW
+DOMAIN,adware-toolbar-download.invalid,LOW
+# --- Real security test sites (harmless, antivirus testing ke liye bane hain) ---
+DOMAIN,malware.testing.google.test,HIGH
+DOMAIN,testsafebrowsing.appspot.com,MEDIUM
+DOMAIN,wicar.org,MEDIUM
+# --- EICAR test file ke hashes (har antivirus isse "virus" maanta hai) ---
+HASH,275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f,HIGH
+HASH,3395856ce81f2b7382dee72602f798b642f14140,HIGH
+HASH,44d88612fea8a8f36de82e1278abb02f,HIGH
